@@ -32,4 +32,4 @@ Note 1: I've hardcoded the most common post processing flags in the .cpp file.  
 to change those as needed or change the import funtion parameters to allow passing flags
 directly from C3.
 
-Note 2: most of the comments are straight from the assimp source code.
+Note 2: most of the comments in the bindings are straight from the Assimp source code.

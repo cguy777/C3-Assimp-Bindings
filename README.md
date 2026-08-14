@@ -20,7 +20,7 @@ If there's an error, call this:
 fn char* getErrorString();
 ~~~
 
-Assimp uses length based strings.
+Assimp uses a struct called `aiString` for their strings.
 Call this to easily convert from their string to a C3 String:
 ~~~
 fn String stringFromAiStr(AiString aiS);
